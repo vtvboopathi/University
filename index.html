@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"> <img src="logo.png" alt=""> </a>
+            <div class="navlink" id="navLink">
+                <p class="men close" onclick="closeMenu">Close</p>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Course</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+            <p class="men open" onclick="openMenu">Menu</p>
+        </nav>
+        <div class="text">
+            <h1> World's Biggest University </h1>
+            <p>Lorem ipsum, dolor sit amet consectetur <br> adipisicing elit. Ab cumque tempora obcaecati!</p>
+            <a href="" class="hbtn">Visit us to know more.....!</a>
+        </div>
+    </section>
+<script>
+
+    var navLink = document.getElementById("navLivk")
+    function closeMenu(){
+        navLink.style.display = "none"
+    }
+    function openMenu(){
+        navLink.style.display = "block"
+    }
+
+</script>
+</body>
+</html>
