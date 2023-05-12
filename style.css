@@ -286,6 +286,175 @@ p{
 }
 
 
+/* facilities */
+
+.fac{
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    width: 80%;
+}
+
+.fac h1{
+    font-size: 36px;
+}
+
+.fac-row{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.fac-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+
+.fac-col .img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.fac-col h3{
+    text-align: left;
+    padding-top: 20px;
+}
+
+.fac-col p{
+    text-align: left;
+    padding: 0;
+    margin-top: 20px;
+}
+
+@media (max-width: 700px){
+    .fac-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
 
 
+/* test */
 
+.test{
+    margin: auto;
+    width: 80%;
+    text-align: center;
+    padding-top: 150px;
+}
+
+.test h1{
+    font-size: 36px;
+}
+
+.test-row{
+    flex-basis: 44%;
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 30px;
+}
+
+.test-row img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.test-col{
+    display: flex;
+    background-color: #e7dbdb;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: left;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.test-col:hover{
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.3);
+}
+
+.test-col p{
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.test-col h3{
+    color: #fff;
+}
+
+@media (max-width:700px) {
+    .test{
+        overflow: hidden;
+    }
+
+    .test-row{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* contact */
+
+.ctn{
+    width: 80%;
+    margin: 100px auto;
+    margin-top: 150px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(banner2.jpg);
+    padding: 200px 0;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.ctn:hover{
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.ctn h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:700px){
+    .ctn h1{
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+}
+
+footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h4{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    font-weight: 600;
+}
+
+.icon-div i{
+    color: white;
+    margin: 10px;
+    background-color: orangered;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.icon-div i:hover{
+    background-color: #fff;
+    color: orangered;
+}
