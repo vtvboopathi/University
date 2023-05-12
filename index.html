@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>University page</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
     <section class="header">
@@ -15,10 +17,12 @@
                 <p class="men close" onclick="closeMenu">Close</p>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
                     <li><a href="#course">Course</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#campus">Campus</a></li>
+                    <li><a href="#fec">Facilities</a></li>
+                    <li><a href="#test">Testimonial</a></li>
+                    <li><a href="#contact">Contact us</a></li>
+                    <li><a href="#us">About us</a></li>
                 </ul>
             </div>
             <p class="men open" onclick="openMenu">Menu</p>
@@ -53,7 +57,7 @@
 
     <!-- Campus section -->
 
-    <section class="campus">
+    <section class="campus" id="campus">
         <h1>Campus</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quo dicta dolorem?</p>
 
@@ -79,9 +83,73 @@
         </div>
     </section>
 
+    <!-- Facilities -->
 
+    <section class="fac" id="fec">
 
+        <h1>Facilities</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non voluptas tempora nesciunt.</p>
 
+        <div class="fac-row">
+            <div class="fac-col">
+                <img class="img" src="basketball.png" alt="">
+                <h3>Play Ground</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem.</p>
+            </div>
+            <div class="fac-col">
+                <img class="img" src="library.png" alt="">
+                <h3>Library</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem.</p>
+            </div>
+            <div class="fac-col">
+                <img class="img" src="cafeteria.png" alt="">
+                <h3>Healthy foods</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem, exercitationem.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- test -->
+
+    <section class="test" id="test">
+        <h1>Testmonial</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit dolore alias amet!</p>
+        <div class="test-row">
+            <div class="test-col">
+                <img src="user1.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam labore eligendi consequuntur ab velit voluptatum possimus facilis ut, consequaturm fuga quas, nisi autem accusamus non quae! Velit, vero animi?</p>
+                    <h3>Crush</h3>
+                </div>
+            </div>
+            <div class="test-col">
+                <img src="user2.jpg" alt="">
+                <div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad dolore nobis repellendus sequi nam. Harum labore adipisci assumenda odio voluptatem! quam dolor cum enim quod atque ipsa quidem iure, facere dolores. Officia, inventore?</p>
+                    <h3>Boopathi</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Contact -->
+
+    <section class="ctn" id="contact">
+        <h1>Contact us in anytime at anywhere.....</h1>
+        <a href="" class="hbtn">Mail us</a>
+    </section>
+
+    <footer id="us">
+        <h4>About us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam voluptas <br> iure odio placeat at natus ab. Reiciendis earum quo itaque?</p>
+        <div class="icon-div">
+            <i class="fa fa-facebook-official"  aria-hidden="true"></i>
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+        </div>
+    </footer>
 
 </body>
 </html>
